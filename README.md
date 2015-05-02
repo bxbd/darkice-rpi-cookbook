@@ -1,8 +1,7 @@
-## darkice for raspberry pi Cookbook
-This installs darkice with mp3 support for the rasperri pi
+Install darkice with mp3 support on a raspberry pi
 
 ## Requirements
-A raspberry pi with installed chef
+A raspberry pi with chef installed
 
 ## Usage
 
@@ -23,7 +22,7 @@ A raspberry pi with installed chef
   </tr>
 </table>
 
-#### darkice-rpi::default
+#### darkice-rpi::default [TODO]
 To install darkice from a precompiled source just include `darkice-rpi` in your node's `run_list`:
 
 ```json
