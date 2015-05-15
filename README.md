@@ -14,7 +14,7 @@ A raspberry pi with chef installed
     <th>Default</th>
   </tr>
   <tr>
-    <td colspan="3"><b>Default recipe</b></td>
+    <td colspan="4"><b>Default recipe</b></td>
   </tr>
   <tr>
     <td><tt>['darkice-rpi']['package_url']</tt></td>
@@ -23,7 +23,7 @@ A raspberry pi with chef installed
     <td><tt>empty</tt></td>
   </tr>
   <tr>
-    <td colspan="3"><b>Source recipe</b></td>
+    <td colspan="4"><b>Source recipe</b></td>
   </tr>
   <tr>
     <td><tt>['darkice-rpi']['platform']</tt></td>
@@ -50,7 +50,7 @@ A raspberry pi with chef installed
     <td><tt>1.0-999~mp3+1</tt></td>
   </tr>
   <tr>
-    <td colspan="3"><b>Configuration</b></td>
+    <td colspan="4"><b>Configuration</b></td>
   </tr>
   <tr>
     <td><tt>['darkice-rpi']['input']['device']</tt></td>
