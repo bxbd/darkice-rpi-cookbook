@@ -11,7 +11,7 @@ apt_repository 'darkice-rpi' do
   uri node['darkice-rpi']['uri']
   distribution node['darkice-rpi']['distribution']
   components ['main', 'contrib', 'non-free', 'rpi']
-  arch node['darkice-rpi']['arch']
+  arch node['darkice-rpi']['platform']
   deb_src true
 end
 
