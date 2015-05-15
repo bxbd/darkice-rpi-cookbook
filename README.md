@@ -6,7 +6,6 @@ A raspberry pi with chef installed
 ## Usage
 
 ###Attributes
-[TODO]
 <table>
   <tr>
     <th>Key</th>
@@ -22,15 +21,19 @@ A raspberry pi with chef installed
   </tr>
 </table>
 
-#### darkice-rpi::default [TODO]
-To install darkice from a precompiled source just include `darkice-rpi` in your node's `run_list`:
+#### darkice-rpi::default
+To install darkice from a precompiled source include `darkice-rpi` in your node's `run_list`
+with a remote package url:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
     "recipe[darkice-rpi]"
-  ]
+  ],
+  "darkice-rpi": {
+    "package_url": "https://"
+  }
 }
 ```
 
