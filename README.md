@@ -202,6 +202,7 @@ To install darkice from a source just include `darkice-rpi::source` in your node
 ### License and Authors
 
 Authors: Tim Petter
+Credits: https://stmllr.net/blog/live-streaming-mp3-audio-with-darkice-and-icecast2-on-raspberry-pi/
 
 ```
 The MIT License (MIT)
